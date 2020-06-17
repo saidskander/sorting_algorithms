@@ -12,9 +12,9 @@ fastsort(array, 0, size - 1, size);
 }
 /**
  * fastsort - fastsort
- * @a: array
- * @l: the begin index of the array
- * @h: the last index of the array
+ * @array: array
+ * @lex: the begin index of the array
+ * @m: the last index of the array
  * @size: size
  * Return: none
  */
@@ -30,9 +30,9 @@ fastsort(array, r + 1, m, size);
 }
 /**
  * lomuto - Lomuto
- * @a: array
- * @l: begin array index
- * @h: last array index
+ * @array: array
+ * @lex: begin array index
+ * @m: last array index
  * @size: size
  */
 int lomuto(int *array, int lex, int m, size_t size)
