@@ -13,10 +13,9 @@ fastsort(array, 0, size - 1, size);
 /**
  * fastsort - fastsort
  * @array: array
- * @lex: the begin index of the array
- * @m: the last index of the array
- * @size: size
- * Return: none
+ * @lex : the begin index of the array
+ * @m : the last index of the array
+ * @size : size
  */
 void fastsort(int *array, int lex, int m, size_t size)
 {
@@ -29,11 +28,12 @@ fastsort(array, r + 1, m, size);
 }
 }
 /**
- * lomuto - Lomuto
- * @array: array
- * @lex: begin array index
- * @m: last array index
- * @size: size
+ * lomuto - lomuto
+ * @array : array
+ * @lex : begin array index
+ * @m : last array index
+ * @size : size
+ * Return: lomuto
  */
 int lomuto(int *array, int lex, int m, size_t size)
 {
