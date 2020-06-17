@@ -11,7 +11,7 @@ int box = 0;
 int  path = 0, size_path = size;
 if (size == 0 || size == 1)
 return;
-for (; x < size_path; x++)
+for (x = 0; x < size_path;)
 {
 box = 0;
 if (array[x] > array[x + 1])
@@ -29,5 +29,6 @@ break;
 size_path--;
 x = -1;
 }
+x++;
 }
 }
