@@ -11,7 +11,7 @@ return;
 fastsort(array, 0, size - 1, size);
 }
 /**
- * fastsort - fastsort
+ * fastsort - Fastsort
  * @array: array
  * @lex : the begin index of the array
  * @m : the last index of the array
