@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * bubble_sort - bubble_sort algo.
+ * bubble_sort - bubble sort algo.
  * @array : int *array
  * @size : size_t size
  */
